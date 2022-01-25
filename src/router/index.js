@@ -27,7 +27,7 @@ const routes = [
     path: "/league_calendar",
     meta: {
       style_page: {
-        background: "#E55",
+        background: "#becfdb",
       },
     },
     component: LeagueCalendarForm,
@@ -43,7 +43,7 @@ const routes = [
     path: "/team_calendar",
     meta: {
       style_page: {
-        background: "#E5E5E5",
+        background: "#d5cfcf",
       },
     },
     component: TeamCalendarForm,
@@ -51,7 +51,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(),
   routes,
 });
 
